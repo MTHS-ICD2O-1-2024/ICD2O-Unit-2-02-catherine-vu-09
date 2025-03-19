@@ -1,11 +1,11 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
+// Copyright (c) 2020 Catherine Vu  All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Catherine Vu
+// Created on: March 19 2025
 // This file contains the JS functions for index.html
 
 /**
- * Do basic math.
+ * Do Perimeter and Area
  */
 function doMathClicked() {
 const length = parseFloat(document.getElementById('length').textContent);
