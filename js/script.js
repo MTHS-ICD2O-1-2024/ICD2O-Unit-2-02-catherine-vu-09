@@ -1,17 +1,20 @@
-// Copyright (c) 2025 Catherine Vu All rights reserved
+// Copyright (c) 2020 Mr. Coxall All rights reserved
 //
-// Created by: Catherine
-// Created on: March 17 2025
+// Created by: Mr. Coxall
+// Created on: Sep 2020
 // This file contains the JS functions for index.html
 
 /**
-* Do basic math.
+ * Do basic math.
  */
 function doMathClicked() {
-  document.getElementById("add-math").innerHTML = "<p>6 + 5 = " + (6 + 5) + "</p>"
-  document.getElementById("subtract-math").innerHTML = "<p>7 - 3 =  " + (7 - 3) + "</p>"  
-  document.getElementById("multiply-math").innerHTML = "<p>3 + 4 × 2 = " + (3 + 4 * 2) + "</p>" 
-  document.getElementById("divide-math").innerHTML = "<p>(4 ÷ 2) + 3 = " + (4 / 2 + 3) + "</p>"
-  document.getElementById("exponent-math").innerHTML = "<p>5 + 2³ = " + (5 + 2 ** 3) + "</p>"
+const length = parseFloat(document.getElementById('length').textContent);
+const width = parseFloat(document.getElementById('width').textContent);
+
+const area = 5 * 3;
+const perimeter = 2 * (5 + 3);
+
+document.getElementById('area').textContent = area + ' cm²';
+document.getElementById('perimeter').textContent = perimeter + ' cm';
 }
 
